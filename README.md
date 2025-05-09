@@ -1,13 +1,17 @@
-Student Rank Checker — Verify Academic Ranks with Data Transparency
+**Student Rank Checker** — 
+Verify Academic Ranks with Data Transparency
 This project is a lightweight Python-based utility designed to verify student rankings based on actual academic scores. Educational institutions and students often rely on declared ranks for admissions, scholarships, and recognition. But how do you ensure those ranks are calculated fairly?
 That’s where this tool comes in.
 Using a clean dataset of students' marks — including JEE scores, Class 12, and Class 10 board marks — the system computes a Total Score and assigns a computed rank by sorting students in descending order of their performance. It then allows users to input a Roll Number to view the student’s detailed academic profile, compare the declared rank with the recomputed one, and check for discrepancies.
 This helps identify data inconsistencies or ranking errors and promotes transparency in student evaluation.
 
-🔍 Features:
+**🔍 Features:**
 1.Load student data from CSV files.
+
 2.Clean and normalize column names automatically.
+
 3.Calculate a total score using:
+
     a.JEE Marks
     b.Class 12 Marks
     c.Class 10 Marks
@@ -16,12 +20,12 @@ This helps identify data inconsistencies or ranking errors and promotes transpar
 6.Provide a clear comparison between declared and computed ranks.
 7.Friendly CLI output with informative messages.
 
-🛠️ Tech Stack:
+**🛠️ Tech Stack:**
 1.Python 3
 2.Pandas (data processing)
 3.Optional: Google Colab or Jupyter Notebook for demos
 
-📦 Use Cases:
+**📦 Use Cases:**
 1.Internal audits of student ranking systems
 2.Educational fairness checks
 3.Institutional transparency
